@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página de Login</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+
+    <!-- CSS PADRAO -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="bg-dark-subtle">
+    <header>
+      <nav class="navbar bg-body-tertiary p-0">
+        <div class="container-fluid text-bg-primary">
+          <a href="#">
+            <span
+              id="boot-icon"
+              class="bi bi-person-circle"
+              style="font-size: 40px; color: rgb(0, 0, 0)"
+            ></span>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container form-container my-4 bg-body-tertiary">
+      <section class="">
+        <div class="row">
+          <div class="col">
+            <h1 class="mb-0">Sign in</h1>
+            <p class="fs-6">Sign in on the internal plataform</p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="row">
+          <div class="col">
+            <button type="submit" class="btn btn-primary" id="btn-submit">
+              <span
+                id="boot-icon"
+                class="bi bi-facebook fs-6"
+                style="font-size: 15px; color: rgb(255, 255, 255)"
+              >
+                LOGIN WITH FACEBOOK</span
+              >
+            </button>
+          </div>
+          <div class="col">
+            <button type="submit" class="btn btn-primary" id="btn-submit">
+              <span
+                id="boot-icon"
+                class="bi bi-google fs-6"
+                style="font-size: 15px; color: rgb(255, 255, 255)"
+              >
+                LOGIN WITH GOOGLE</span
+              >
+            </button>
+          </div>
+        </div>
+      </section>
+      <div class="d-flex align-items-center justify-content-evenly mt-2">
+        <a href="#">or login with e-mail address</a>
+      </div>
+      <section>
+        <div class="row mt-3">
+          <div class="col">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Digite seu e-mail"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label"
+                  >Password</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                />
+              </div>
+              <button type="submit" class="btn btn-primary" id="btn-submit">
+                SIGN IN NOW
+              </button>
+            </form>
+
+            <div class="mt-2">
+              <p>Don't have an account? <a href="./signup.html">Sign up</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

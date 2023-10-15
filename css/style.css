@@ -1,0 +1,10 @@
+#btn-submit {
+  width: 100% !important;
+}
+
+.form-container {
+  max-width: 600px;
+  padding: 1rem;
+  height: 500px;
+  margin: auto;
+}
